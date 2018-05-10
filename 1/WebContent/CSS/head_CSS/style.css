@@ -1,0 +1,201 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--
+body{
+	height:100%;
+	weight:100%;
+}
+.logintable{
+	position：absolute;
+	top:200px;
+}
+td {
+	font-size: 9pt;	color: #000000;
+}
+img{
+	border:0;
+}
+.style5{
+	color:#ACD6FF;
+}
+.img1{
+	border:1;
+}
+.blue {
+	font-size: 9pt;	color: #034683;
+}
+.bgcolor {
+	font-size: 9pt;	color: #1980DB;
+}
+.btn_grey {
+	font-family: "宋体";	font-size: 9pt;color: #333333;	
+	background-color: #eeeeee;cursor: hand;padding:1px;height:19px;
+	border-top: 1px solid #FFFFFF;border-right:1px solid #666666;
+	border-bottom: 1px solid #666666;border-left: 1px solid #FFFFFF;
+}
+input{
+	font-family: "宋体";
+	font-size: 9pt;
+	color: #333333;
+	border: 1px solid #D2E9FF;
+}
+
+.inputinputinput{
+	font-family: "宋体";
+	font-size: 9pt;
+	border: 0px solid #D2E9FF;
+}
+
+.inputinput{
+	font-family: "宋体";
+	font-size: 9pt;
+	background-color:#D2E9FF;
+	border: 1px solid #D2E9FF;
+}
+
+
+.tip{
+	color: red;
+    font-weight: bold;
+    line-height: 20px;
+    padding-left: 25px;
+    display: none;
+}
+
+.word_white{
+ color:#FFFFFF;
+}
+.word_deepgrey{
+ color:#999999;
+}
+.word_orange{
+ color:#FF6600;
+}
+.word_green{
+ color:#FEECEA;
+}
+.noborder{
+border:none;
+}
+.word_gray{
+ color:#dddddd;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+textarea {
+	font-family: "宋体";
+	font-size: 9pt;
+	color: #333333;
+	border: 1px solid #999999;
+}
+.tableBorder {
+	border: #D8D8D8 1px solid;
+}
+.tableBorder_dashed {
+	border: #D8D8D8 1px dashed;
+}
+.tableBorder_l {
+	border: #004C86 1px solid;
+	border-bottom-style:none;
+	border-right-style:none;
+	border-top-style:none;
+}
+.tableBorder_r {
+	border: #004C86 1px solid;
+	border-bottom-style:none;
+	border-left-style:none;
+	border-top-style:none;
+}
+.tableBorder_lb {
+	border: #D8D8D8 1px solid;
+	border-left-style:none;
+	border-top-style:none;
+}
+.tableBorder_l_dashed {
+	border: #D8D8D8 1px dashed;
+	border-bottom-style:none;
+	border-left-style:none;
+	border-top-style:none;
+}
+.tableBorder_T_dashed {
+	border: #D8D8D8 1px dashed;
+	border-bottom-style:none;
+	border-left-style:none;
+	border-right-style:none;
+}
+.tableBorder_LTR_dashed {
+	border: #D8D8D8 1px dashed;
+	border-bottom-style:none;
+}
+.tableBorder_B_dashed {
+	border: #D8D8D8 1px dashed;
+	border-top-style:none;
+	border-left-style:none;
+	border-right-style:none;
+}
+.hidden_a_line{
+	noline:expression(this.onfocus=this.blur);
+}
+
+
+hr{
+color:#77642C;
+border-style:dashed;
+}
+
+
+
+
+.backTop:link { font-size:12px; color:#FFFFFF; text-decoration:none}
+.backTop:visited { font-size:12px; color:#FFFFFF; text-decoration:none}
+.backTop:hover { font-size:12px; color:#FFFFFF; text-decoration:underline}
+.backTop:active { font-size:12px; color:#FF0000; text-decoration:none}
+
+a:hover {
+	font-size: 10pt;	color: #FF0000;
+}
+a {
+	font-size: 10pt;	text-decoration: none;	color: #000000;
+	noline:expression(this.onfocus=this.blur);
+}
+
+
+
+
+.aaaa:link { font-size:14px; color:#A54400; text-decoration:none}
+.aaaa:visited { font-size:14px; color:#A54400; text-decoration:none}
+.aaaa:hover { font-size:14px; color:#A54400; text-decoration:underline}
+.aaaa:active { font-size:14px; color:#FF0000; text-decoration:none}
+
+.aaaaa:link { font-size:12px; color:#FFFFFF; text-decoration:none}
+.aaaaa:visited { font-size:12px; color:#FFFFFF; text-decoration:none}
+.aaaaa:hover { font-size:12px; color:#FFFFFF; text-decoration:underline}
+.aaaaa:active { font-size:12px; color:#FFFFFF; text-decoration:none}
+
+.in:link { font-size:12px; color:#000000; text-decoration:none}
+.in:visited { font-size:12px; color:#000000; text-decoration:none}
+.in:hover { font-size:12px; color:#000000; text-decoration:underline}
+.in:active { font-size:12px; color:#000000; text-decoration:none}
+
+.head-01:link { font-size:14px; color:#FFFFFF; text-decoration:none}
+.head-01:visited { font-size:14px; color:#FFFFFF; text-decoration:none}
+.head-01:hover { font-size:14px; color:#FDD63D; text-decoration:none}
+.head-01:active { font-size:14px; color:#FDD63D; text-decoration:none}
+
+
+.head-02:link { font-size:9pt; color:#FE6500; text-decoration:none}
+.head-02:visited { font-size:9pt; color:#FE6500; text-decoration:none}
+.head-02:hover { font-size:9pt; color:#000000; text-decoration:none}
+.head-02:active { font-size:9pt; color:#000000; text-decoration:none}
+
+body{margin:0; padding:0}
+#to_top{width:30px; height:40px;text-align:center; position:absolute; cursor:pointer; color:#fff}
+
+#box{width:300px; height:0px; position: absolute; border:1px solid #ccc; -webkit-box-shadow:2px 2px 5px black; left:0px; bottom:0px; border-radius:5px; filter:alpha(opacity:0); opacity:0; background-image: url('../images/01.jpg'); background-repeat: no-repeat; z-index:1000;}.title{width:300px; height:20px; position: absolute; border-bottom: 1px solid #ccc; background:#ccc; cursor:move; background-image:url('../images/bg.png')}
+#close {width:auto; height:auto; cursor: pointer; z-index: 1; position: absolute; right:0px; top:0px; cursor:move}
+#close a{text-decoration: none; color:white; float:right; margin-right:5px; line-height:20px; vertical-align: middle; font-size: 12px;}
+
+-->

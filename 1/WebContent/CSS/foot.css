@@ -1,0 +1,18 @@
+.foot{
+margin: 0 auto;
+height: 80px;
+padding-top: 5px;
+width: 1000px;
+}
+.navi2{
+float: right;
+color:#C3CDDF;
+}
+.navi2 li{
+	float:left;
+	list-style-type:none;
+	color:#C3CDDF;
+	width: 60px;
+	text-align: center;
+	padding: 0px;
+}

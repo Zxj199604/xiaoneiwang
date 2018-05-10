@@ -1,0 +1,43 @@
+/*注册主体框框*/
+.reg_main_frame{
+width: 1000px;
+height: 1000px;
+
+margin: 0 auto;
+margin-top: 0px;
+}
+
+/*加入后可以选择*/
+.play_item1{
+float: left;
+}
+.play_item1 img{
+float: left;
+height: 500px;
+width: 230px;
+}
+.play_item2{
+/*	background-image: url("/1/images/zhuce.png");*/
+	width: 770px;
+	height: 500px;
+	float: left;
+	margin-top:-10px;
+}
+.play_item3{
+	padding-top: 90px;
+	padding-left: 140px;
+}
+
+/*对注册表格外观进行修饰*/
+.tab_td1{
+width: 110px;
+text-align: right;
+font-size: 12px;
+font-weight: bold;
+color: #808080;
+padding-right: 10px;/*右填充*/
+}
+.tab_td2{
+width: 250px;
+}
+/*表格间距*/
